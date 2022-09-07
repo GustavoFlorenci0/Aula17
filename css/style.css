@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.Header {
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.Header img {
+    width: 50px;
+    height: 50px;
+}
+
+.Card {
+    display: flex; 
+    background-color: blue;
+    border-radius: 15px;
+    padding: 25px;
+    width: 50vw;
+    color: white;  
+    flex-direction: column;
+
+}
+
+.Stilo {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+.Botao {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Botao button {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.Botao button:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+.Botao button:active {
+    background-color: rgb(184, 158, 158);
+}
